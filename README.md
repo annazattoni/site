@@ -5,7 +5,8 @@
 ![Release](https://img.shields.io/github/v/release/annazattoni/site)
 ![GatsbyJS](https://img.shields.io/github/package-json/dependency-version/annazattoni/site/gatsby)
 ![React](https://img.shields.io/github/package-json/dependency-version/annazattoni/site/react)
-![Build and Deploy](https://github.com/annazattoni/site/workflows/Build%20and%20Deploy/badge.svg)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ead03b25-274a-412b-8673-f8158eb0c595/deploy-status)](https://app.netlify.com/sites/annazattoni/deploys)
 
 This project contains the main Anna Zattoni's corporate [website](https://annazattoni.com/).
 
