@@ -1,0 +1,65 @@
+@import "../../variables";
+
+@import "~bulma/sass/utilities/mixins";
+
+.navbar {
+  .navbar-burger {
+    color: $dark;
+    margin-left: auto;
+    position: relative;
+    z-index: 1;
+    span {
+      width: 24px;
+      &:nth-child(1) {
+        top: calc(50% - 12px);
+      }
+      &:nth-child(2) {
+        top: calc(50% - 2px);
+      }
+      &:nth-child(3) {
+        top: calc(50% + 8px);
+      }
+    }
+    &.is-active {
+      span {
+        &:nth-child(1) {
+          transform: translateY(8px) rotate(45deg);
+        }
+        &:nth-child(3) {
+          transform: translateY(-12px) rotate(-45deg);
+        }
+      }
+    }
+    @include desktop {
+      display: block;
+    }
+  }
+  .navbar-brand {
+    width: 100%;
+  }
+  .navbar-item {
+    &.is-active {
+      font-weight: $weight-bold;
+    }
+  }
+  .menu {
+    position: fixed;
+    width: 320px;
+    height: 100%;
+    right: -320px;
+    background-color: $light;
+    @include desktop {
+      padding-top: $navbar-height;
+    }
+    &.is-active {
+      right: 0;
+    }
+    ul {
+      li {
+        list-style-type: none;
+        text-transform: uppercase;
+        letter-spacing: $size-7 / 2;
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+@import "@pittica/scss-functions";
+
+@include font(annazattoni);
+@include icon-family(annazattoni);
+
+@include icon(annazattoni, a, "\41");
+@include icon(annazattoni, n, "\4e");
+@include icon(annazattoni, logo, "\e902");
+@include icon(annazattoni, arrow-down, "\e903");
+@include icon(annazattoni, arrow-up, "\e904");
+@include icon(annazattoni, arrow-left, "\e905");
+@include icon(annazattoni, arrow-right, "\e906");
+@include icon(annazattoni, facebook, "\e907");
+@include icon(annazattoni, linkedin, "\e908");

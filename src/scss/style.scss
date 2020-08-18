@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+@import "functions";
+@import "variables";
+@import "fonts";
+
+@import "~bulma/bulma.sass";
+
+body {
+  background-color: $background;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  cursor: default;
+  font-family: $family-secondary;
+  text-transform: uppercase;
+  padding-top: $size-7;
+}
+h1 {
+  font-size: $size-1;
+  &.title {
+    letter-spacing: $size-5;
+  }
+}
+h2 {
+  font-size: $size-2;
+  &.subtitle {
+    letter-spacing: $size-7;
+  }
+}
+h3 {
+  font-size: $size-3;
+}
+h4 {
+  font-size: $size-4;
+}
+h5 {
+  font-size: $size-5;
+}
+h6 {
+  font-size: $size-6;
+}
+ul {
+  padding-top: $size-7;
+  padding-left: $size-3;
+  li {
+    list-style-type: circle;
+    padding-top: $size-7;
+    padding-bottom: $size-7;
+  }
+}

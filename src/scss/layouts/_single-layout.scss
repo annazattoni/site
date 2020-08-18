@@ -1,0 +1,51 @@
+@import "../variables";
+@import "~bulma/sass/utilities/mixins";
+
+.single-layout {
+  &.has-navbar-fixed-top {
+    padding-top: $navbar-height;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: $weight-bold;
+    letter-spacing: $size-7;
+    margin-bottom: $size-7 / 2;
+    @include touch {
+      letter-spacing: $size-7 / 2;
+    }
+  }
+  h1 {
+    @include touch {
+      font-size: $size-3;
+    }
+  }
+  h2 {
+    @include touch {
+      font-size: $size-4;
+    }
+  }
+  h3 {
+    @include touch {
+      font-size: $size-5;
+    }
+  }
+  h4 {
+    @include touch {
+      font-size: $size-6;
+    }
+  }
+  h5 {
+    @include touch {
+      font-size: $size-7;
+    }
+  }
+  h6 {
+    @include touch {
+      font-size: $size-7;
+    }
+  }
+}

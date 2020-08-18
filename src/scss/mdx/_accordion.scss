@@ -1,0 +1,49 @@
+@import "../variables";
+
+@import "@pittica/scss-functions";
+
+.accordion {
+  outline: none;
+  h1 {
+    &.title {
+      color: $dark;
+      font-weight: $weight-light;
+      font-size: $size-4;
+      padding-top: $size-4;
+      padding-bottom: 0;
+    }
+  }
+  h2 {
+    &.description {
+      font-size: $size-6;
+      letter-spacing: normal;
+      text-transform: none;
+      padding-bottom: $size-6;
+    }
+  }
+  .accordion-body {
+    overflow: hidden;
+    display: none;
+    margin-bottom: $size-3;
+  }
+  .accordion-toggle {
+    position: absolute;
+    right: 0;
+    font-size: $size-3;
+    padding-top: $size-6;
+    i {
+      transform: rotate(0deg);
+      @include transition(all, 0.5s, ease-in-out);
+    }
+  }
+  &.is-active {
+    .accordion-body {
+      display: block;
+    }
+    .accordion-toggle {
+      i {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+@import "../variables";
+
+.main-block {
+  text-align: center;
+  a {
+    color: $grey-darker;
+    font-weight: $weight-bold;
+    &.caption {
+      font-weight: $weight-light;
+      text-transform: uppercase;
+      letter-spacing: $size-6 / 2;
+      font-size: $size-6;
+    }
+  }
+  h2 {
+    font-size: $size-6;
+    text-align: center;
+    text-transform: none;
+    margin-bottom: $size-1;
+  }
+  .gatsby-image-wrapper {
+    margin: 0 $size-1;
+  }
+}

@@ -1,0 +1,10 @@
+@import "../variables";
+
+.logo {
+  width: 137px;
+  height: 102px;
+  fill: $dark;
+  &.negative {
+    fill: $light;
+  }
+}

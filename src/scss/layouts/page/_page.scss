@@ -1,0 +1,39 @@
+@import "../../variables";
+
+.page-main {
+  padding-top: $navbar-height;
+  padding-bottom: $size-1;
+  p {
+    margin-bottom: $size-7;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: $weight-bold;
+    letter-spacing: $size-7;
+    margin-bottom: $size-7 / 2;
+  }
+  li {
+    padding-bottom: $size-7;
+  }
+  .page-container {
+    padding: 0 $size-1;
+  }
+}
+.page-image {
+  max-width: 320px;
+  margin: 0 auto;
+}
+.page-header {
+  h1 {
+    &.title {
+      color: $dark;
+      font-weight: $weight-light;
+      font-size: $size-4;
+      padding-bottom: $size-2;
+    }
+  }
+}

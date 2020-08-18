@@ -1,0 +1,7 @@
+@import "../variables";
+
+.cornerstone-layout {
+  &.has-navbar-fixed-top {
+    padding-top: $navbar-height;
+  }
+}
