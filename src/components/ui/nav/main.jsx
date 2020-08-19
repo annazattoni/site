@@ -64,18 +64,23 @@ export default class MainNavigation extends Component {
         >
           <ul className="menu-list">
             <li>
-              <NavLink location={location} to="/about">
-                Chi Sono
-              </NavLink>
-            </li>
-            <li>
               <NavLink location={location} to="/services">
                 Servizi
               </NavLink>
             </li>
             <li>
+              <NavLink location={location} to="/about">
+                Chi Sono
+              </NavLink>
+            </li>
+            <li>
               <NavLink location={location} to="/portfolio">
                 Portfolio
+              </NavLink>
+            </li>
+            <li>
+              <NavLink location={location} to="/contact">
+                Contatti
               </NavLink>
             </li>
           </ul>

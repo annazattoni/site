@@ -37,16 +37,16 @@ module.exports = {
     {
       resolve: `gatsby-plugin-emotion`,
       options: {
-        plugins: []
-      }
+        plugins: [],
+      },
     },
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
         defaultLayouts: {
-          default: require.resolve("./src/layouts/page.jsx")
-        }
-      }
+          default: require.resolve("./src/layouts/page.jsx"),
+        },
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
@@ -60,6 +60,34 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/content/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/content/articles`,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 640,
+            },
+          },
+          {
+            resolve: `gatsby-remark-responsive-iframe`,
+            options: {
+              wrapperStyle: `margin-bottom: 1rem`,
+            },
+          },
+          `gatsby-remark-copy-linked-files`,
+          `gatsby-remark-smartypants`,
+        ],
       },
     },
     `gatsby-transformer-sharp`,
@@ -81,8 +109,8 @@ module.exports = {
         background_color: process.env.COLOR_BACKGROUND,
         theme_color: process.env.COLOR_PRIMARY,
         display: `minimal-ui`,
-        icon: `src/images/icon.png`
-      }
+        icon: `src/images/icon.png`,
+      },
     },
     {
       resolve: `gatsby-plugin-sitemap`,
@@ -120,9 +148,9 @@ module.exports = {
         image: `/share.jpg`,
         socials: {
           facebook: {
-            app: ``
-          }
-        }
+            app: ``,
+          },
+        },
       },
     },
     `gatsby-plugin-offline`,
@@ -130,32 +158,32 @@ module.exports = {
       resolve: `gatsby-plugin-iubenda-cookie-footer`,
       options: {
         iubendaOptions: {
-          "consentOnContinuedBrowsing": false,
-          "whitelabel": false,
-          "lang": "it",
-          "siteId": 000000,
-          "cookiePolicyId": 000000,
-          "cookiePolicyUrl": "https://annazattoni.com/cookies",
-          "cookiePolicyInOtherWindow": true,
-          "banner": {
-            "acceptButtonDisplay": true,
-            "customizeButtonDisplay": false,
-            "position": "float-bottom-center",
-            "brandBackgroundColor": process.env.COLOR_BACKGROUND,
-            "brandTextColor": process.env.COLOR_TEXT,
-            "acceptButtonColor": process.env.COLOR_SECONDARY,
-            "acceptButtonCaptionColor": process.env.COLOR_TEXT,
-            "customizeButtonColor": process.env.COLOR_BACKGROUND,
-            "customizeButtonCaptionColor": process.env.COLOR_SECONDARY,
-            "rejectButtonColor": process.env.COLOR_PRIMARY,
-            "rejectButtonCaptionColor": process.env.COLOR_TEXT,
-            "textColor": process.env.COLOR_TEXT,
-            "backgroundColor": process.env.COLOR_BACKGROUND,
-            "logo": "/logo-banner.png",
-            "closeButtonDisplay": false
-          }
-        }
-      }
-    }
+          consentOnContinuedBrowsing: false,
+          whitelabel: false,
+          lang: "it",
+          siteId: 000000,
+          cookiePolicyId: 000000,
+          cookiePolicyUrl: "https://annazattoni.com/cookies",
+          cookiePolicyInOtherWindow: true,
+          banner: {
+            acceptButtonDisplay: true,
+            customizeButtonDisplay: false,
+            position: "float-bottom-center",
+            brandBackgroundColor: process.env.COLOR_BACKGROUND,
+            brandTextColor: process.env.COLOR_TEXT,
+            acceptButtonColor: process.env.COLOR_SECONDARY,
+            acceptButtonCaptionColor: process.env.COLOR_TEXT,
+            customizeButtonColor: process.env.COLOR_BACKGROUND,
+            customizeButtonCaptionColor: process.env.COLOR_SECONDARY,
+            rejectButtonColor: process.env.COLOR_PRIMARY,
+            rejectButtonCaptionColor: process.env.COLOR_TEXT,
+            textColor: process.env.COLOR_TEXT,
+            backgroundColor: process.env.COLOR_BACKGROUND,
+            logo: "/logo-banner.png",
+            closeButtonDisplay: false,
+          },
+        },
+      },
+    },
   ],
 }

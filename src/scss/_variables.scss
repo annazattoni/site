@@ -1,14 +1,15 @@
 $grey-darker: rgb(24, 24, 24);
+$grey-lighter: rgb(238, 238, 238);
 $white: rgb(255, 255, 255);
 $yellow: rgb(242, 221, 203);
 $dark: $grey-darker;
 $light: $white;
 $primary: $yellow;
 $primary-invert: $white;
-$info: $grey-darker;
+$info: $dark;
 $background: $white;
 $title-color: $primary;
-$link: $primary;
+$link: $dark;
 $family-sans-serif: "Poppins", sans-serif;
 $title-family: $family-sans-serif;
 $family-primary: $family-sans-serif;

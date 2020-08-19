@@ -1,0 +1,48 @@
+@import "../../variables";
+
+.portfolio-main {
+  padding-top: $navbar-height;
+  padding-bottom: $size-1;
+  p {
+    margin-bottom: $size-7;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: $weight-bold;
+    letter-spacing: $size-7;
+    margin-bottom: $size-7 / 2;
+  }
+  li {
+    padding-bottom: $size-7;
+  }
+  .portfolio-container {
+    padding: 0 $size-1;
+  }
+}
+.portfolio-image {
+  max-width: 212px;
+  height: 212px;
+  background-color: $grey-lighter;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.portfolio-header {
+  h1 {
+    &.title {
+      color: $dark;
+      font-weight: $weight-light;
+      font-size: $size-4;
+      padding-bottom: $size-2;
+    }
+  }
+  h2 {
+    &.subtitle {
+      font-size: $size-6;
+      letter-spacing: $size-7 / 2;
+    }
+  }
+}

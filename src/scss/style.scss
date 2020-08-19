@@ -9,6 +9,11 @@
 body {
   background-color: $background;
 }
+main {
+  a {
+    font-weight: $weight-semibold;
+  }
+}
 h1,
 h2,
 h3,
