@@ -1,0 +1,12 @@
+@import "../variables";
+
+.portfolio-image {
+  max-width: 212px;
+  height: 212px;
+  background-color: $grey-lighter;
+  margin: 0 auto;
+  border-radius: 50%;
+  img {
+    border-radius: 50%;
+  }
+}

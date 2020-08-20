@@ -1,0 +1,23 @@
+@import "../variables";
+
+@import "@pittica/scss-functions";
+
+.portfolio-wrapper {
+  background-color: lighten($primary, 10%);
+  .portfolio-item {
+    .porfolio-link {
+      color: $dark;
+      font-weight: $weight-light;
+      font-size: $size-7;
+      padding: $size-4 ($size-7 / 2);
+      text-transform: uppercase;
+      letter-spacing: $size-7;
+      text-align: center;
+      display: block;
+    }
+    .portfolio-image {
+      max-width: 128px;
+      height: 128px;
+    }
+  }
+}

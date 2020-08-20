@@ -1,10 +1,10 @@
 import React from "react"
 import { graphql } from "gatsby"
 import { SEO } from "@pittica/gatsby-plugin-seo"
-import Img from "gatsby-image"
 
 import Footer from "../../components/ui/footer"
 import MainNavBar from "../../components/ui/nav/main"
+import PortfolioImage from "../../components/ui/portfolio-image"
 
 import "../../scss/layouts/article/_portfolio.scss"
 
@@ -20,14 +20,7 @@ export default class PortfolioTemplate extends React.Component {
           <div className="container">
             <div className="columns">
               {post.frontmatter.logo && (
-                <div className="column is-one-thirds">
-                  <div className="portfolio-image">
-                    <Img
-                      fluid={post.frontmatter.logo.childImageSharp.fluid}
-                      alt={post.frontmatter.title}
-                    />
-                  </div>
-                </div>
+                <PortfolioImage frontmatter={post.frontmatter} />
               )}
               <div className="column is-two-thirds">
                 <div className="portfolio-container">

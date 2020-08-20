@@ -1,7 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
 import { SEO } from "@pittica/gatsby-plugin-seo"
-import Img from "gatsby-image"
 
 import Footer from "../../components/ui/footer"
 import MainNavBar from "../../components/ui/nav/main"

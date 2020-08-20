@@ -2,7 +2,7 @@
 title: "Stadera"
 description: "Molto più di un supermercato: è partecipazione!"
 url: "https://www.staderacoop.it/"
-logo: "staderacoop.png"
+logo: "stadera.png"
 ---
 
 Sono tra i soci fondatori di questa cooperativa di consumo autogestita.
