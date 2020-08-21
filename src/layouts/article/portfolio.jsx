@@ -46,7 +46,7 @@ export default class PortfolioTemplate extends React.Component {
                       target="_system"
                     >
                       <i className="icon icon-annazattoni-arrow-right"></i>{" "}
-                      Guarda ciò che ho fatto!
+                      Guarda ciò che ho fatto
                     </a>
                   )}
                 </div>
