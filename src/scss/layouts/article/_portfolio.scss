@@ -4,7 +4,7 @@
   padding-top: $navbar-height;
   padding-bottom: $size-1;
   p {
-    margin-bottom: $size-7;
+    margin-bottom: $size-5;
   }
   h1,
   h2,
@@ -36,6 +36,7 @@
     &.subtitle {
       font-size: $size-6;
       letter-spacing: $size-7 / 2;
+      margin-bottom: $size-5;
     }
   }
 }

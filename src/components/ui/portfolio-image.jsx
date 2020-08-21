@@ -20,7 +20,7 @@ export default class Section extends Component {
 }
 
 Section.propTypes = {
-  frontmatter: PropTypes.bool,
+  frontmatter: PropTypes.object,
 }
 
 Section.defaultProps = {

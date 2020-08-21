@@ -39,7 +39,9 @@ export default class PortfolioTemplate extends React.Component {
                     dangerouslySetInnerHTML={{ __html: post.html }}
                   />
                   {post.frontmatter.url && (
-                    <a href={post.frontmatter.url} alt={post.frontmatter.url}>{post.frontmatter.url}</a>
+                    <a href={post.frontmatter.url} alt={post.frontmatter.url}>
+                      {post.frontmatter.url}
+                    </a>
                   )}
                 </div>
               </div>

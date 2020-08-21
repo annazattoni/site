@@ -12,6 +12,10 @@ body {
 main {
   a {
     font-weight: $weight-semibold;
+    text-decoration: underline;
+  }
+  strong {
+    font-weight: $weight-bold;
   }
 }
 h1,
