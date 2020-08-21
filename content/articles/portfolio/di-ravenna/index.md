@@ -9,6 +9,6 @@ Che si fa quando si vuole conoscere una città?
 
 Si "googla" o si studia una guida cartacea aggiornata. Oppure ci si affida alle parole di chi, quella città, la vive e la vede cambiare ogni giorno.
 
-Per questo progetto di storytelling, frutto della collaborazione fra (Webit)[(https://www.webit.it)] e (Tuttifrutti)[(https://www.tuttifrutti.it)], ho raccontato la mia città attraverso un punto di vista molto intimo. Al di là di ogni luogo comune.
+Per questo progetto di storytelling, frutto della collaborazione tra Webit e Tuttifrutti, ho raccontato la mia città attraverso un punto di vista molto intimo.
 
-Ravenna non è solo mosaici! Leggere per credere o per ricredersi.
+Ravenna non è solo mosaici! Leggere per credere o per ricredersi, al di là dei luoghi comuni.
