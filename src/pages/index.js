@@ -55,8 +55,8 @@ const IndexPage = ({ location }) => {
                 to="/about"
                 title="Chi Sono"
                 fluid={about.childImageSharp.fluid}
-                label="Una delle cose più difficili è parlare di sé senza annoiare..."
-                caption="Leggi Qualche Info Su Di Me"
+                label="Un po' di info su di me: dove vivo, cosa faccio, come lavoro."
+                caption="Leggi di più!"
               />
             </div>
             <div className="column">
