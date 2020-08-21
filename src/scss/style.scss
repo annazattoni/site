@@ -10,12 +10,14 @@ body {
   background-color: $background;
 }
 main {
-  a {
-    font-weight: $weight-semibold;
-    text-decoration: underline;
-  }
-  strong {
-    font-weight: $weight-bold;
+  .post-content {
+    a {
+      font-weight: $weight-semibold;
+      text-decoration: underline;
+    }
+    strong {
+      font-weight: $weight-bold;
+    }
   }
 }
 h1,

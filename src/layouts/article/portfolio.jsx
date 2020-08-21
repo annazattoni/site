@@ -38,14 +38,14 @@ export default class PortfolioTemplate extends React.Component {
                     className="post-content"
                     dangerouslySetInnerHTML={{ __html: post.html }}
                   />
-                  {post.frontmatter.url && (
-                    <a href={post.frontmatter.url} alt={post.frontmatter.url}>
-                      {post.frontmatter.url}
-                    </a>
-                  )}
                 </div>
               </div>
             </div>
+                  {post.frontmatter.url && (
+                    <a href={post.frontmatter.url} alt={post.frontmatter.url} className="portfolio-link">
+                      <i className="icon icon-annazattoni-arrow-right"></i> {post.frontmatter.url}
+                    </a>
+                  )}
           </div>
         </main>
         <Footer />

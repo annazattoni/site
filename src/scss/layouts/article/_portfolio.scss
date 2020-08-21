@@ -22,6 +22,12 @@
   .portfolio-container {
     padding: 0 $size-1;
   }
+  .portfolio-link {
+    font-weight: $weight-semibold;
+    .icon {
+      color: $primary;
+    }
+  }
 }
 .portfolio-header {
   h1 {
