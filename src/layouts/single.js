@@ -13,7 +13,7 @@ export default class SingleLayout extends Component {
         <SEO path={this.props.location.pathname} />
         <MainNavBar location={this.props.location} />
         <main>{this.props.children}</main>
-        <Footer dark={true} />
+        <Footer />
       </div>
     )
   }

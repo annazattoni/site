@@ -31,19 +31,11 @@
     right: 0;
     font-size: $size-3;
     padding-top: $size-6;
-    i {
-      transform: rotate(0deg);
-      @include transition(all, 0.5s, ease-in-out);
-    }
+    color: $primary;
   }
   &.is-active {
     .accordion-body {
       display: block;
-    }
-    .accordion-toggle {
-      i {
-        transform: rotate(180deg);
-      }
     }
   }
 }

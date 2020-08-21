@@ -91,7 +91,7 @@ const PrivacyPage = ({ location }) => {
         <p>I soggetti cui si riferiscono i dati personali hanno il diritto in qualunque momento di ottenere la conferma dell'esistenza o meno dei medesimi dati e di conoscerne il contenuto e l'origine, verificarne l'esattezza o chiederne l'integrazione o l'aggiornamento, oppure la rettifica (<a href="http://www.garanteprivacy.it/garante/doc.jsp?ID=1311248#articolo7" target="_blank" rel="noreferrer">articolo 7 del D.Lgs. n° 196/2003 del Codice in materia di protezione dei dati personali</a>). Ai sensi del medesimo articolo si ha il diritto di chiedere la cancellazione, la trasformazione in forma anonima o il blocco dei dati trattati in violazione di legge, nonché di opporsi in ogni caso, per motivi legittimi, al loro trattamento. Chiunque dovesse avere dubbi riguardanti il rispetto della politica per la tutela della privacy adottata da {organization.company}, la sua applicazione, l'accuratezza dei tuoi dati personali o l'utilizzo delle informazioni raccolte può contattarci tramite e-mail all'indirizzo <a href={"mailto:" + organization.email} title={organization.email}>{organization.email}</a>.</p>
       </Section>
       <Section>
-        {organization.city}, {new Date().getDate()}/{new Date().getMonth()}/{new Date().getFullYear()}
+        {organization.city}, {new Date().getDate()}/{new Date().getMonth() + 1}/{new Date().getFullYear()}
       </Section>
     </SingleLayout>
   )

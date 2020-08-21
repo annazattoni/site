@@ -18,6 +18,7 @@ export default class Accordion extends Component {
   }
 
   render() {
+    console.log(this.props)
     return (
       <div
         className={classNames({
@@ -27,14 +28,18 @@ export default class Accordion extends Component {
       >
         <div className="accordion-header">
           <Link className="accordion-toggle" to="#" onClick={this.handleClick}>
-            <i
-              className={classNames({
-                icon: true,
-                "icon-annazattoni-arrow-down": true,
-              })}
-            ></i>
+            {this.state.active ? "-" : "+"}
           </Link>
-          {this.props.title && <h1 className="title">{this.props.title}</h1>}
+          {this.props.title && (
+            <h1 className="title">
+              <Link
+                to="#"
+                onClick={this.handleClick}
+              >
+                {this.props.title}
+              </Link>
+            </h1>
+          )}
           {this.props.description && (
             <h2 className="description">{this.props.description}</h2>
           )}

@@ -20,17 +20,6 @@
       color: $light;
     }
   }
-  .logo-container {
-    text-align: right;
-    @include touch {
-      text-align: center;
-    }
-    .logo {
-      width: auto;
-      height: $size-1 * 4;
-      margin-bottom: $size-3;
-    }
-  }
   .container {
     padding-top: $size-1 * 3;
     padding-bottom: $size-1 * 3;

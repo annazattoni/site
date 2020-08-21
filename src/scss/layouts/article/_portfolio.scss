@@ -1,7 +1,7 @@
 @import "../../variables";
 
 .portfolio-main {
-  padding-top: $navbar-height;
+  padding-top: $navbar-height + $size-1;
   padding-bottom: $size-1;
   p {
     margin-bottom: $size-5;
@@ -23,7 +23,11 @@
     padding: 0 $size-1;
   }
   .portfolio-link {
-    font-weight: $weight-semibold;
+    display: block;
+    font-weight: $weight-light;
+    padding-top: $size-2;
+    text-transform: uppercase;
+    letter-spacing: $size-6;
     .icon {
       color: $primary;
     }
@@ -35,13 +39,14 @@
       color: $dark;
       font-weight: $weight-light;
       font-size: $size-4;
-      padding-bottom: $size-2;
+      padding-bottom: $size-7 / 3;
     }
   }
   h2 {
     &.subtitle {
       font-size: $size-6;
       letter-spacing: $size-7 / 2;
+      padding-bottom: $size-4;
       margin-bottom: $size-5;
     }
   }

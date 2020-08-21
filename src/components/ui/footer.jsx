@@ -5,9 +5,6 @@ import PropTypes from "prop-types"
 
 import "../../scss/ui/_footer.scss"
 
-import logoPositive from "../../images/logo-positive.svg"
-import logoNegative from "../../images/logo-negative.svg"
-
 const Footer = ({ dark }) => {
   const { site } = useStaticQuery(
     graphql`
@@ -68,15 +65,6 @@ const Footer = ({ dark }) => {
     >
       <div className="container">
         <div className="columns">
-          <div className="column">
-            <div className="logo-container">
-              <img
-                src={dark ? logoNegative : logoPositive}
-                alt={company}
-                className="logo"
-              />
-            </div>
-          </div>
           <div className="column">
             <h4>{company}</h4>
             <div className="block">
