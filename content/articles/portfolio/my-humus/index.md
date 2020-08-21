@@ -1,6 +1,6 @@
 ---
 title: "MyHumus"
-description: "Aiuti l'ambiente solo aprendo la mente."
+description: "È solo aprendo la mente che aiuti l'ambiente!"
 url: "https://myhumus.com"
 logo: "my-humus.png"
 ---
