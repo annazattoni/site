@@ -7,8 +7,8 @@ logo: "di-ravenna.png"
 
 Che si fa quando si vuole conoscere una città?
 
-Si googla o si studia una guida aggiornata. Oppure ci si affida alle parole di chi, quella città, la vive ogni giorno.
+Si "googla" o si studia una guida cartacea aggiornata. Oppure ci si affida alle parole di chi, quella città, la vive e la vede cambiare ogni giorno.
 
-Per questo progetto di storytelling, ho raccontato Ravenna attraverso un punto di vista molto intimo.
+Per questo progetto di storytelling, frutto della collaborazione fra (Webit)[(https://www.webit.it)] e (Tuttifrutti)[(https://www.tuttifrutti.it)], ho raccontato la mia città attraverso un punto di vista molto intimo.
 
 Ravenna non è solo mosaici! Leggere per credere (o per ricredersi).
