@@ -9,6 +9,6 @@ Prima di essere una comunità alloggio per anziani, Villa Rosa Onlus è una fami
 
 Villa Rosa Onlus assiste anziani autosufficienti e con disabilità lievi/medie, offrendo loro l'amore e la premura che meritano di ricevere.
 
-Ogni giorno, il personale della struttura lavora al benessere psicofisico degli ospiti e al potenziamento delle loro capacità cognitive. Le attività proposte quotidianamente sono tante e puntano a gratificare l'anziano facendolo  sentire utile.
+Ogni giorno, il personale della struttura lavora al benessere psicofisico degli ospiti e al potenziamento delle loro capacità cognitive. Le attività proposte quotidianamente sono tante e puntano a gratificare l'anziano facendolo sentire utile.
 
-Per Villa Rosa Onlus ho redatto i contenuti testuali del sito.
+Per questa realtà ravennate ho redatto i contenuti del sito puntando a mettere in rilievo professionalità, etica e fattore umano, tutti elementi che la contraddistinguono.
