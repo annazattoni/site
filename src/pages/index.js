@@ -46,7 +46,7 @@ const IndexPage = ({ location }) => {
                 to="/services"
                 title="Servizi"
                 fluid={services.childImageSharp.fluid}
-                label="Il mio lavoro ruota attorno alla parola scritta, online e offline."
+                label="Il mio lavoro ruota attorno alla parola scritta, sul web e su carta."
                 caption="Ecco Cosa Posso Fare Per Te"
               />
             </div>
@@ -55,7 +55,7 @@ const IndexPage = ({ location }) => {
                 to="/about"
                 title="Chi Sono"
                 fluid={about.childImageSharp.fluid}
-                label="Un po' di info su di me: dove vivo, cosa faccio, come lavoro."
+                label="Un po' di info su di me: dove vivo, cosa faccio, il mio modus operandi."
                 caption="Leggi di più"
               />
             </div>
@@ -64,7 +64,7 @@ const IndexPage = ({ location }) => {
                 to="/portfolio"
                 title="Portfolio"
                 fluid={portfolio.childImageSharp.fluid}
-                label="Qui trovi alcuni dei progetti che mi hanno coinvolta in prima persona."
+                label="Ho selezionato alcuni dei progetti che mi hanno coinvolta in prima persona."
                 caption="Guardali Tutti"
               />
             </div>
