@@ -1,11 +1,9 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { MDXProvider } from "@mdx-js/react"
-import { SEO } from "@pittica/gatsby-plugin-seo"
 import Img from "gatsby-image"
 
-import Footer from "../components/ui/footer"
-import MainNavBar from "../components/ui/nav/main"
+import Container from "./container"
 
 import Accordion from "../components/mdx/accordion"
 import Portfolio from "../components/mdx/portfolio"
@@ -46,44 +44,42 @@ export default ({ children, location, metadata }) => {
   })
 
   const shortcodes = { accordion: Accordion, portfolio: Portfolio }
-  
-  return (
-    <>
-      <SEO title={metadata.title} path={location.pathname} />
-      <MainNavBar location={location} />
-      <main className="page-main">
-        <div className="container">
-          <div className="columns">
-            {image && (
-              <div className="column is-one-thirds">
-                <div className="page-image">
-                  <Img fluid={image} alt={metadata.title} />
-                </div>
+  const body = (
+    <main className="page-main">
+      <div className="container">
+        <div className="columns">
+          {image && (
+            <div className="column is-one-thirds">
+              <div className="page-image">
+                <Img fluid={image} alt={metadata.title} />
               </div>
-            )}
-            <div className="column is-two-thirds">
-              <div className="page-container">
-                <header className="header page-header">
-                  {metadata.title && !metadata.compact && (
-                    <h1 className="title">{metadata.title}</h1>
-                  )}
-                  {metadata.description && (
-                    <h2 className="subtitle">{metadata.description}</h2>
-                  )}
-                </header>
-                {(metadata.container ||
-                  typeof metadata.container === "undefined") && (
-                  <MDXProvider components={shortcodes}>{children}</MDXProvider>
+            </div>
+          )}
+          <div className="column is-two-thirds">
+            <div className="page-container">
+              <header className="header page-header">
+                {metadata.title && !metadata.compact && (
+                  <h1 className="title">{metadata.title}</h1>
                 )}
-              </div>
+                {metadata.description && (
+                  <h2 className="subtitle">{metadata.description}</h2>
+                )}
+              </header>
+              <MDXProvider components={shortcodes}>{children}</MDXProvider>
             </div>
           </div>
         </div>
-        {!metadata.container && typeof metadata.container !== "undefined" && (
-          <MDXProvider components={shortcodes}>{children}</MDXProvider>
-        )}
-      </main>
-      <Footer />
-    </>
+      </div>
+    </main>
   )
+
+  if (metadata.container || typeof metadata.container === "undefined") {
+    return (
+      <Container location={location} title={metadata.title}>
+        {body}
+      </Container>
+    )
+  } else {
+    return body
+  }
 }

@@ -40,7 +40,6 @@ const Portfolio = () => {
         <Section>
           <div className="columns is-multiline">
             {allMarkdownRemark.edges.map(({ node }) => {
-              console.log(node.frontmatter.logo)
               return (
                 <div className="column is-3" key={node.fields.slug}>
                   <article className="portfolio-item">

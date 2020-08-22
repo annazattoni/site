@@ -18,7 +18,6 @@ export default class Accordion extends Component {
   }
 
   render() {
-    console.log(this.props)
     return (
       <div
         className={classNames({
