@@ -7,6 +7,7 @@ import Container from "./container"
 
 import Accordion from "../components/mdx/accordion"
 import Portfolio from "../components/mdx/portfolio"
+import ContactForm from "../components/mdx/contact-form"
 
 import "../scss/layouts/page/_page.scss"
 
@@ -43,7 +44,11 @@ export default ({ children, location, metadata }) => {
     }
   })
 
-  const shortcodes = { accordion: Accordion, portfolio: Portfolio }
+  const shortcodes = {
+    accordion: Accordion,
+    portfolio: Portfolio,
+    contactform: ContactForm,
+  }
   const body = (
     <main className="page-main">
       <div className="container">

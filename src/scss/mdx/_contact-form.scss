@@ -1,0 +1,22 @@
+@import "../variables";
+
+.contact-form {
+  padding-top: $size-2;
+  .checkbox {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: $size-7;
+    line-height: $size-5;
+    a {
+      text-decoration: underline;
+    }
+    input {
+      position: absolute;
+      left: -20px;
+      top: 4px;
+      &[checked] {
+        color: $primary;
+      }
+    }
+  }
+}

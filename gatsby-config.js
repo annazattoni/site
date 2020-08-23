@@ -150,6 +150,9 @@ module.exports = {
           facebook: {
             app: ``,
           },
+          linkedin: {
+            page: `zattonianna`,
+          },
         },
       },
     },

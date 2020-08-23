@@ -8,6 +8,7 @@
     "@emotion/core": "^10.0.28",
     "@mdx-js/mdx": "^1.6.5",
     "@mdx-js/react": "^1.6.5",
+    "@pittica/gatsby-plugin-recaptcha": "^1.0.0",
     "@pittica/gatsby-plugin-seo": "^1.1.1",
     "@pittica/scss-functions": "^1.1.0",
     "bulma": "^0.8.2",
