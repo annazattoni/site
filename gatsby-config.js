@@ -148,7 +148,7 @@ module.exports = {
         image: `/share.jpg`,
         socials: {
           facebook: {
-            app: ``,
+            app: `745806426251351`,
           },
           linkedin: {
             page: `zattonianna`,

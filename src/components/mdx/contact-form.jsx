@@ -144,7 +144,7 @@ export default class ContactForm extends React.Component {
               <div className="column">
                 <ReCaptcha
                   action="homepage"
-                  sitekey=""
+                  sitekey="6LdaX8IZAAAAAGY3OBIHaCy3pdxpJXwVVRNAqBaL"
                   callback={this.verifyCallback}
                 />
               </div>
