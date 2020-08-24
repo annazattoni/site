@@ -5,7 +5,7 @@ url: "https://myhumus.com"
 logo: "my-humus.png"
 ---
 
-Comunicare la sostenibilità ambientale: è ciò che ho fatto sul mio blog, per tre anni e mezzo, attraverso interviste a persone di tutta Italia.
+**Comunicare la sostenibilità ambientale**: è ciò che ho fatto sul mio blog, per tre anni e mezzo, attraverso interviste a persone di tutta Italia.
 
 MyHumus ha dato voce a quella forma di cambiamento che, in primis, nasce da dentro. Un po' come tutte le rivoluzioni personali.
 
