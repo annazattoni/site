@@ -64,7 +64,7 @@ const IndexPage = ({ location }) => {
                 to="/portfolio"
                 title="Portfolio"
                 fluid={portfolio.childImageSharp.fluid}
-                label="Ho selezionato alcuni dei progetti che mi hanno coinvolta in prima persona."
+                label="Qui trovi alcuni dei progetti che mi hanno coinvolta in prima persona."
                 caption="Guardali Tutti"
               />
             </div>
