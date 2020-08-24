@@ -107,7 +107,7 @@ export default class ContactForm extends React.Component {
               <div className="column">
                 <Input
                   name="name"
-                  label="Nome"
+                  label="Il tuo nome"
                   onChange={this.handleInputChange}
                 />
               </div>
@@ -115,7 +115,7 @@ export default class ContactForm extends React.Component {
                 <Input
                   type="email"
                   name="email"
-                  label="E-Mail"
+                  label="La tua e-mail"
                   onChange={this.handleInputChange}
                 />
               </div>
@@ -123,7 +123,7 @@ export default class ContactForm extends React.Component {
             <div className="columns">
               <div className="column">
                 <Textarea
-                  label="Messaggio"
+                  label="Dimmi, cosa posso fare per te?"
                   name="message"
                   onChange={this.handleInputChange}
                 />
@@ -132,9 +132,9 @@ export default class ContactForm extends React.Component {
             <div className="columns">
               <div className="column">
                 <CheckBox name="privacy" onChange={this.handlePrivacy}>
-                  Dichiaro di aver letto l'
+                  Dichiari di aver letto l'
                   <Link to="/privacy">informativa sulla privacy</Link> e
-                  autorizzo il trattamento dei miei dati personali ai sensi del
+                  autorizzi il trattamento dei tuoi dati personali ai sensi del
                   Dlgs. 196 del 30 giugno 2003 e dell'art. 13 GDPR (Regolamento
                   UE 2016/679) per finalità di contatto.
                 </CheckBox>
@@ -169,17 +169,17 @@ export default class ContactForm extends React.Component {
             {!this.state.error && (
               <>
                 <h3>Messaggio inviato!</h3>
-                <p>Sarai ricontattato nel più breve tempo possibile.</p>
-                <p>Grazie per avermi contattato.</p>
+                <p>Mi metterò in contatto con te il prima possibile.</p>
+                <p>Grazie per avermi scritto!</p>
               </>
             )}
             {this.state.error && (
               <>
                 <h3>Messaggio non inviato!</h3>
                 <p>
-                  C'è stato un problema tecnico nell'invio del tuo messaggio.
+                  C'è stato un problemino tecnico con l'invio del tuo messaggio...
                 </p>
-                <p>Ci scusiamo per l'inconveniente.</p>
+                <p>Mi scuso per l'inconveniente!</p>
               </>
             )}
           </div>
