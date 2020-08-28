@@ -6,7 +6,7 @@ import PropTypes from "prop-types"
 import "../../scss/ui/_footer.scss"
 
 const Footer = ({ dark }) => {
-  const { site } = useStaticQuery(
+  const { site, siteBuildMetadata } = useStaticQuery(
     graphql`
       query {
         site {
@@ -22,6 +22,17 @@ const Footer = ({ dark }) => {
               taxId
               vatId
               registryId
+            }
+          }
+        }
+        siteBuildMetadata {
+          fields {
+            seo {
+              socials {
+                linkedin {
+                  page
+                }
+              }
             }
           }
         }
@@ -41,6 +52,7 @@ const Footer = ({ dark }) => {
     vatId,
     registryId,
   } = site.siteMetadata.organization
+  const { linkedin } = siteBuildMetadata.fields.seo.socials
   let tax = ""
 
   if (taxId !== "" && vatId !== "") {
@@ -79,14 +91,16 @@ const Footer = ({ dark }) => {
               {registryId && <p>REA {registryId}</p>}
             </div>
             <div className="block">
-              <p>
-                <a href={email} title={email}>
-                  {email}
-                </a>
-              </p>
+              <a href={email} title={email}>
+                {email}
+              </a>
+            </div>
+            <div className="block">
+              <a href={`https://linkedin.com/in/${linkedin.page}`} title="LinkedIn" className="social-follow" target="_system">
+                <i className="icon-annazattoni-linkedin"></i>
+              </a>
             </div>
           </div>
-          <div className="column"></div>
         </div>
       </div>
       <div className="columns">

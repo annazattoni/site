@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
+import { Link } from "gatsby"
 import ReCaptcha, { Loader } from "@pittica/gatsby-plugin-recaptcha"
 import axios from "axios"
 import classNames from "classnames"
@@ -188,13 +188,3 @@ export default class ContactForm extends React.Component {
     )
   }
 }
-
-export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`

@@ -11,6 +11,7 @@
       font-size: $size-4;
       padding-top: $size-4;
       padding-bottom: 0;
+      margin-bottom: 0;
     }
   }
   h2 {
@@ -31,6 +32,7 @@
     right: 0;
     font-size: $size-3;
     padding-top: $size-6;
+    padding-right: $size-4;
     color: $primary;
   }
   &.is-active {
