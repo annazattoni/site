@@ -96,7 +96,12 @@ const Footer = ({ dark }) => {
               </a>
             </div>
             <div className="block">
-              <a href={`https://linkedin.com/in/${linkedin.page}`} title="LinkedIn" className="social-follow" target="_system">
+              <a
+                href={`https://linkedin.com/in/${linkedin.page}`}
+                title="LinkedIn"
+                className="social-follow"
+                target="_system"
+              >
                 <i className="icon-annazattoni-linkedin"></i>
               </a>
             </div>
@@ -107,7 +112,8 @@ const Footer = ({ dark }) => {
         <div className="column">
           © {new Date().getFullYear()}, {company} -{" "}
           <Link to="/privacy">Politica sulla Privacy</Link> -{" "}
-          <Link to="/cookies">Politica sui Cookie</Link>
+          <Link to="/cookies">Politica sui Cookie</Link> -{" "}
+          <Link to="/credits">Credits</Link>
         </div>
       </div>
     </footer>

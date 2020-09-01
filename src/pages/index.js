@@ -9,7 +9,7 @@ import Intro from "../components/ui/intro"
 const IndexPage = ({ location }) => {
   const { portfolio, about, services } = useStaticQuery(
     graphql`
-      query Images {
+      query IndexImages {
         portfolio: file(relativePath: { eq: "section-portfolio.png" }) {
           childImageSharp {
             fluid(maxWidth: 430) {
