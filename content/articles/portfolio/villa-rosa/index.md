@@ -3,6 +3,7 @@ title: "Villa Rosa"
 description: "Una casa in cui sentirsi a casa."
 url: "https://www.villarosaonlus.it/"
 logo: "villa-rosa.png"
+date: "2020-06-01T22:12:03.284Z"
 ---
 
 Prima di essere una **comunità alloggio per anziani**, Villa Rosa Onlus è una **famiglia** in cui diciotto persone vivono il valore del tempo, dell'affetto e della dignità.

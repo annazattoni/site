@@ -3,6 +3,7 @@ title: "Strani Mondi"
 description: "Autori in cerca di storie."
 url: ""
 logo: "strani-mondi.png"
+date: "2019-09-01T22:12:03.284Z"
 ---
 
 Nel 2018, insieme ad altri dieci appassionati di scrittura, ho partecipato a un corso sulla struttura del racconto organizzato da Gianluca Morozzi, [Fernandel Editore](https://www.fernandel.it) e [Urban Fabrica](https://www.urbanfabrica.com). Un corso, questo, che ho deciso di seguire per puro interesse personale. 

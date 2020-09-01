@@ -7,7 +7,10 @@ exports.createPages = async ({ graphql, actions }, options) => {
   const posts = await graphql(
     `
       {
-        allMarkdownRemark(limit: 2000) {
+        allMarkdownRemark(
+          limit: 2000
+          sort: { fields: [frontmatter___date], order: DESC }
+        ) {
           edges {
             node {
               fields {
@@ -16,7 +19,7 @@ exports.createPages = async ({ graphql, actions }, options) => {
               frontmatter {
                 title
                 description
-                url
+                date
               }
             }
           }

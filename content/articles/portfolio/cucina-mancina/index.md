@@ -3,6 +3,7 @@ title: "Cucina Mancina"
 description: "Il lato sinistro di Parigi."
 url: "https://www.cucinamancina.com/index.php?option=com_community&view=profile&userid=1049&Itemid=173"
 logo: "cucina-mancina.png"
+date: "2015-10-01T22:12:03.284Z"
 ---
 
 [Cucina Mancina](https://www.cucinamancina.com) è una food community per mancini alimentari, cioè per tutti coloro che non seguono l'alimentazione tradizionale (per necessità o per scelta personale).

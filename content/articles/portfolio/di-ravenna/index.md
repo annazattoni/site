@@ -3,6 +3,7 @@ title: "DiRavenna"
 description: "Come te la RAcconto."
 url: "http://www.diravenna.it/author/anna-zattoni/"
 logo: "di-ravenna.png"
+date: "2014-02-01T22:12:03.284Z"
 ---
 
 Che si fa quando si vuole conoscere bene una città?

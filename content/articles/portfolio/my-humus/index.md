@@ -3,6 +3,7 @@ title: "MyHumus"
 description: "È solo aprendo la mente che aiuti l'ambiente!"
 url: "https://myhumus.com"
 logo: "my-humus.png"
+date: "2014-06-01T22:12:03.284Z"
 ---
 
 **Comunicare la sostenibilità ambientale**: è ciò che ho fatto sul mio blog, per tre anni e mezzo, attraverso interviste a persone di tutta Italia.

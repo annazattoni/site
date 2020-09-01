@@ -3,6 +3,7 @@ title: "Smart Solutions"
 description: "Viva lo shopping offline, alla faccia degli e-commerce!"
 url: "https://smartsolutions.it/blog/"
 logo: "smart-solutions.png"
+date: "2018-05-01T22:12:03.284Z"
 ---
 
 Favorire il **marketing territoriale** ricorrendo alla geolocalizzazione, aiutare i commercianti di moda dei centri storici italiani a promuoversi attraverso i loro **marchi**, soddisfare le esigenze delle persone grazie a una **comunicazione personalizzata**: ecco i principali obiettivi di *Dress Finder*, la piattaforma web e l'app mobile messe a punto da [Smart Solutions](https://smartsolutions.it).
