@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import { SEO } from "@pittica/gatsby-plugin-seo"
 
+import Hero from "../../components/ui/hero"
 import Footer from "../../components/ui/footer"
 import MainNavBar from "../../components/ui/nav/main"
 
@@ -15,10 +16,16 @@ export default class ServicesTemplate extends React.Component {
         <MainNavBar location={this.props.location} />
         <main className="page-main">
           <div className="container">
-            <section
-              className="post-content"
-              dangerouslySetInnerHTML={{ __html: post.html }}
+            <Hero
+              title={post.frontmatter.title}
+              subtitle={post.frontmatter.description}
             />
+            <div className="page-container">
+              <section
+                className="post-content"
+                dangerouslySetInnerHTML={{ __html: post.html }}
+              />
+            </div>
           </div>
         </main>
         <Footer />
