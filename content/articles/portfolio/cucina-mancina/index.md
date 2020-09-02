@@ -13,5 +13,5 @@ All'epoca di questa collaborazione con Flavia Giordano e Lorenza Dadduzio, le du
 Parigi ha un lato sinistro (che in questo caso sarebbe meglio definire *mancino*) ed è quello che mi sono divertita a esplorare per i miei lettori.
 Ho scritto di superalimenti in zona Canal Saint-Martin, di boutique biologiche con prodotti di altissimo livello, di locali ecoresponsabili che autoproducono le proprie materie prime, di librerie promotrici della sostenibilità, di mercati all'aperto e di foodlab impegnati nella diffusione di un consumo più etico.
 
-Parigi non può certo dirsi 100% green, eppure è sede di una bellissima rivoluzione che parte dal basso e coinvolge sempre più persone di ogni età e ceto sociale.
+Parigi non può certo dirsi 100% green, eppure è sede di una bellissima rivoluzione che parte dal basso e coinvolge sempre più persone di ogni età e ceto sociale.<br/>
 Per un po' ne sono stata testimone!

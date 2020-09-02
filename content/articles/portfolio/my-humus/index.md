@@ -12,4 +12,5 @@ MyHumus ha dato voce a quella forma di cambiamento che, in primis, nasce da dent
 
 È stato una sorta di palcoscenico su cui ho presentato progetti condotti da persone impegnate sul fronte green.
 
-Per il nome del blog ho pensato all'humus del terreno, componente indispensabile alla buona salute di un ecosistema naturale. Allo stesso modo, i miei intervistati sono indispensabili alla buona salute del nostro territorio: la loro lungimiranza ne arricchisce e preserva il presente e il futuro.
+Per il nome del blog ho pensato all'humus del terreno, componente indispensabile alla buona salute di un ecosistema naturale.<br/>
+Allo stesso modo, i miei intervistati sono indispensabili alla buona salute del nostro territorio: la loro lungimiranza ne arricchisce e preserva il presente e il futuro.
