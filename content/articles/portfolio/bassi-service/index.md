@@ -1,6 +1,6 @@
 ---
 title: "Bassi Service"
-description: "L'esperienza che emoziona"
+description: "L'esperienza che emoziona."
 url: "https://bassiservice.it"
 logo: "bassi-service.png"
 date: "2020-03-01T22:12:03.284Z"
