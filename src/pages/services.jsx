@@ -1,9 +1,12 @@
 import React from "react"
 
+import Container from "../layouts/container"
 import Services from "../../content/pages/services"
 
 export default ({ location }) => {
   return (
-    <Services location={location} />
+    <Container location={location} title="Services">
+      <Services location={location} />
+    </Container>
   )
 }

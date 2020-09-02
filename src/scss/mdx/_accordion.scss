@@ -1,7 +1,5 @@
 @import "../variables";
 
-@import "@pittica/scss-functions";
-
 .accordion {
   outline: none;
   h1 {
@@ -37,6 +35,7 @@
     padding-top: $size-6;
     padding-right: $size-4;
     color: $primary;
+    text-decoration: none;
   }
   &.is-active {
     .accordion-body {

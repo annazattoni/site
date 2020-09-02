@@ -13,6 +13,7 @@ const Portfolio = () => {
         allMarkdownRemark(
           limit: 2000
           sort: { fields: [frontmatter___date], order: DESC }
+          filter: { fields: { slug: { regex: "/^\/portfolio\//s" } } }
         ) {
           edges {
             node {
