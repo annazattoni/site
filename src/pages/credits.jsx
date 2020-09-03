@@ -32,6 +32,14 @@ const CreditsPage = ({ location }) => {
     <SingleLayout location={location.pathname}>
       <Hero title="Credits" subtitle="Crediti" />
       <Section>
+        Quando una copy in stato confusionale post-brainstorming incontra una
+        grafica che sogna di essere Margherita Hack e un developer che non beve
+        caffè, la copy in stato confusionale post-brainstorming capisce subito
+        di essere in buone mani. Sara Silvestri e Lucio Benini sono i due
+        professionisti che hanno contribuito alla concretizzazione del mio
+        brainstorming. Con grande indulgenza, per (mia) fortuna.
+      </Section>
+      <Section>
         <div className="columns">
           <div className="column">
             <Img fluid={sara.childImageSharp.fluid} alt="Sara" />
