@@ -30,14 +30,17 @@ const CreditsPage = ({ location }) => {
 
   return (
     <SingleLayout location={location.pathname}>
-      <Hero title="Credits" subtitle="Crediti" />
+      <Hero title="Credits" subtitle="Ecco chi voglio ringraziare" />
       <Section>
-        Quando una copy in stato confusionale post-brainstorming incontra una
-        grafica che sogna di essere Margherita Hack e un developer che non beve
-        caffè, la copy in stato confusionale post-brainstorming capisce subito
-        di essere in buone mani. Sara Silvestri e Lucio Benini sono i due
-        professionisti che hanno contribuito alla concretizzazione del mio
-        brainstorming. Con grande indulgenza, per (mia) fortuna.
+        Quando una copy in stato confusionale da brainstorming incontra una
+        grafica che sogna di essere Margherita Hack 
+        e un developer intollerante alla caffeina, 
+        la copy in stato confusionale da brainstorming capisce subito
+        di essere in buone mani.<br/>
+        SARA SILVESTRI e LUCIO BENINI sono i due
+        professionisti che hanno saputo concretizzare ciò che avevo in mente.<br/>
+        Ci sono riusciti mantenendo un livello di pazienza degno solo del Dalai Lama...<br/>
+        LI RINGRAZIO DI CUORE!
       </Section>
       <Section>
         <div className="columns">
