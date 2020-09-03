@@ -1,6 +1,6 @@
 ---
 title: "Smart Solutions"
-description: "Viva lo shopping offline, alla faccia degli e-commerce!"
+description: "Viva lo shopping offline, alla faccia degli e-commerce."
 url: "https://smartsolutions.it/blog/"
 logo: "smart-solutions.png"
 date: "2018-05-01T22:12:03.284Z"
