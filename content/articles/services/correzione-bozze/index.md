@@ -17,4 +17,4 @@ _O capito che ai voglia di publicare il tuo libro, ma non è che puoi farlo cosi
 Ricorda sempre che un contenuto corretto denota serietà, competenza e cura del dettaglio.
 
 Vorresti che ciò che hai scritto fosse revisionato?<br/>
-**Confrontiamoci** e vediamo di non lasciare nel dimenticatoio il frutto del tuo impegno e della tua creatività!
+[Confrontiamoci](/contact) e vediamo di non lasciare nel dimenticatoio il frutto del tuo impegno e della tua creatività!

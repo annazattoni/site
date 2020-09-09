@@ -1,5 +1,5 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import { MDXProvider } from "@mdx-js/react"
 import Img from "gatsby-image"
 
@@ -50,6 +50,7 @@ export default ({ children, location, metadata }) => {
     portfolio: Portfolio,
     services: Services,
     contactform: ContactForm,
+    link: Link
   }
   const body = (
     <main className="page-main">

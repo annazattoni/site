@@ -16,4 +16,4 @@ Questo strumento mostra gli argomenti, i canali di riferimento e le tempistiche 
 Un piano editoriale ben strutturato contribuisce ad aumentare le probabilità di successo di un'attività business. E ha un ruolo rilevante nel trasformare un curioso in un cliente, fidelizzandolo grazie a una comunicazione mirata, di qualità ed efficace.
 
 Meglio non pubblicare contenuti sulla base dell'umore o dell'allineamento dei pianeti. Sì a una comunicazione pianificata e fedele agli obiettivi.<br/>
-**Scrivimi**.
+[Scrivimi](/contact).

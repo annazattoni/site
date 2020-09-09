@@ -23,4 +23,4 @@ Quando mi dedico a un'attività di questo tipo:
 
 
 Vorresti che la tua azienda o il tuo progetto comunicasse di più con il territorio e con le testate di settore?<br/> 
-Credo che questo sia un ottimo punto di partenza: **facciamo due chiacchiere?**
+Credo che questo sia un ottimo punto di partenza: [facciamo due chiacchiere?](/contact)

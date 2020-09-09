@@ -17,4 +17,4 @@ Il copywriter deve produrre contenuti chiari, di qualità, fedeli alle finalità
 Stai cercando chi possa scrivere un eBook al tuo posto?<br/>
 Vorresti presentare la tua azienda attraverso contenuti testuali capaci di rispecchiarne la storia, i valori e gli obiettivi?<br/>
 Hai in mente di realizzare un catalogo?<br/>
-**Compila il form**, così potremo discuterne insieme.
+[Compila il form](/contact), così potremo discuterne insieme.

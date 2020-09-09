@@ -29,4 +29,4 @@ In linea di massima, posso dire di attenermi a questo *modus operandi*:
 
 _"Parole, parole, parole... parole fra noi"_, canta Mina.<br/>
 L'importante è che non siano parole a caso, ma quelle capaci di comunicare al meglio il tuo prodotto/servizio concretizzando i tuoi obiettivi.<br/>
-**Contattami** se vuoi che trovi le parole giuste per te!
+[Contattami](/contact) se vuoi che trovi le parole giuste per te!
