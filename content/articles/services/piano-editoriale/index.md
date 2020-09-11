@@ -13,7 +13,7 @@ Il monitoraggio delle attività comunicative diventa più semplice e immediato, 
 
 Questo strumento mostra gli argomenti, i canali di riferimento e le tempistiche di pubblicazione. Stabilisce il **tono di voce** a cui attenersi e il **registro linguistico** da usare. Riporta le **parole chiave** di riferimento e gli eventuali **link** da condividere. Specifica il **tipo di contenuto**, il **pubblico** di riferimento e le **immagini**. Rafforza l'**identità del marchio** e il rapporto di **fiducia** con le persone.
 
-Un piano editoriale ben strutturato contribuisce ad aumentare le probabilità di successo di un'attività business. E ha un ruolo rilevante nel trasformare un curioso in un cliente, fidelizzandolo grazie a una comunicazione mirata, di qualità ed efficace.
+Un piano editoriale ben strutturato contribuisce ad aumentare le probabilità di successo di un'attività business. E ha un ruolo rilevante nel trasformare un curioso in un cliente, fidelizzandolo grazie a una comunicazione mirata ed efficace.
 
 Meglio non pubblicare contenuti sulla base dell'umore o dell'allineamento dei pianeti. Sì a una comunicazione pianificata e fedele agli obiettivi.<br/>
-[Scrivimi](/contact).
+[Scrivimi](/contact)!

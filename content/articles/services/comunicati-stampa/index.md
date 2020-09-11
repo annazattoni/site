@@ -17,10 +17,10 @@ In termini di visibilità, di autorevolezza e d'interazione B2B o B2C, i comunic
 Quando mi dedico a un'attività di questo tipo:
 
 - punto alla **chiarezza**, alla **semplicità** e all'**efficacia del messaggio** da divulgare;
-- riporto **dati** ogniqualvolta sia possibile farlo;
+- riporto **dati** ogni volta sia possibile farlo;
 - effettuo una **revisione** (due, dieci, cento volte!) in termini di sintassi, di ortografia e di grammatica;
 - una volta terminato, invio il documento al Cliente (o lo invio personalmente, in base agli accordi presi) nel **formato prescelto** e **in modo tempestivo**.
 
 
 Vorresti che la tua azienda o il tuo progetto comunicasse di più con il territorio e con le testate di settore?<br/> 
-Credo che questo sia un ottimo punto di partenza: [facciamo due chiacchiere?](/contact)
+Credo che questa sia un'ottima considerazione: [facciamo due chiacchiere?](/contact)
