@@ -33,17 +33,14 @@ const CreditsPage = ({ location }) => {
       <Hero title="Credits" subtitle="Ecco chi voglio ringraziare" />
       <Section>
         Quando una copy in stato confusionale da brainstorming incontra una
-        grafica che sogna di essere Margherita Hack e un developer intollerante
-        alla caffeina, la copy in stato confusionale da brainstorming capisce
-        subito di essere in buone mani.
+        grafica che sogna di essere Margherita Hack e un developer che non beve caffè, la copy in stato confusionale da brainstorming capisce
+        subito di essere in buone mani...
         <br />
         SARA SILVESTRI e LUCIO BENINI sono i due professionisti che hanno saputo
-        concretizzare ciò che avevo in mente.
+        concretizzare ciò che avevo in mente (con una pazienza degna solo del Dalai
+        Lama).
         <br />
-        Ci sono riusciti mantenendo un livello di pazienza degno solo del Dalai
-        Lama...
-        <br />
-        LI RINGRAZIO DI CUORE!
+        A loro vanno tutti i miei GRAZIE.
       </Section>
       <Section>
         <div className="columns">
