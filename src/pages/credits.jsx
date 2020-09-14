@@ -33,14 +33,14 @@ const CreditsPage = ({ location }) => {
       <Hero title="Credits" subtitle="Ecco chi voglio ringraziare" />
       <Section>
         Quando una copy in stato confusionale da brainstorming incontra una
-        grafica che sogna di essere Margherita Hack e un developer che non beve caffè, la copy in stato confusionale da brainstorming capisce
-        subito di essere in buone mani...
+        grafica che sogna di essere Margherita Hack e un developer che non beve
+        caffè, la copy in stato confusionale da brainstorming capisce subito di
+        essere in buone mani...
         <br />
         SARA SILVESTRI e LUCIO BENINI sono i due professionisti che hanno saputo
-        concretizzare ciò che avevo in mente (con una pazienza degna solo del Dalai
-        Lama).
-        <br />
-        A loro vanno tutti i miei GRAZIE.
+        concretizzare ciò che avevo in mente (con una pazienza degna solo del
+        Dalai Lama).
+        <br />A loro vanno tutti i miei GRAZIE.
       </Section>
       <Section>
         <div className="columns">
@@ -49,7 +49,9 @@ const CreditsPage = ({ location }) => {
             <Img fluid={sara.childImageSharp.fluid} alt="Sara" />
           </div>
           <div className="column is-4">
-            <Img fluid={lucio.childImageSharp.fluid} alt="Lucio" />
+            <a href="https://pittica.com" target="_system">
+              <Img fluid={lucio.childImageSharp.fluid} alt="Lucio" />
+            </a>
           </div>
           <div className="column is-2"></div>
         </div>

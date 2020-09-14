@@ -91,7 +91,7 @@ const Footer = ({ dark }) => {
               {registryId && <p>REA {registryId}</p>}
             </div>
             <div className="block">
-              <a href={email} title={email}>
+              <a href={`mailto:${email}`} title={email}>
                 {email}
               </a>
             </div>
