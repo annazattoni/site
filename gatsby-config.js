@@ -164,8 +164,8 @@ module.exports = {
           consentOnContinuedBrowsing: false,
           whitelabel: false,
           lang: "it",
-          siteId: 000000,
-          cookiePolicyId: 000000,
+          siteId: 2007100,
+          cookiePolicyId: 63449453,
           cookiePolicyUrl: "https://annazattoni.com/cookies",
           cookiePolicyInOtherWindow: true,
           banner: {
