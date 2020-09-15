@@ -1,6 +1,6 @@
 ---
 title: "Strani Mondi"
-description: "Autori in cerca di storie."
+description: "Autori (in erba) in cerca di storie."
 url: "https://www.fernandel.it/catalogo/collana-laboratorio-fernandel/597-strani-mondi"
 logo: "strani-mondi.png"
 date: "2019-09-01T22:12:03.284Z"
