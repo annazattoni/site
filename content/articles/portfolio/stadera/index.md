@@ -1,6 +1,6 @@
 ---
 title: "Stadera"
-description: "Molto più di un supermercato: è partecipazione!"
+description: "Più di un supermercato: è partecipazione!"
 url: "https://www.staderacoop.it/"
 logo: "stadera.png"
 date: "2019-01-01T22:12:03.284Z"
