@@ -30,7 +30,7 @@ const CreditsPage = ({ location }) => {
 
   return (
     <SingleLayout location={location.pathname}>
-      <Hero title="Credits" subtitle="Ecco chi voglio ringraziare" />
+      <Hero title="Credits" subtitle="I ringraziamenti, quelli doverosi..." />
       <Section>
         Quando una copy in stato confusionale da brainstorming incontra una
         grafica che sogna di essere Margherita Hack e un developer che non beve
