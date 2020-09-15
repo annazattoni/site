@@ -34,13 +34,13 @@ const CreditsPage = ({ location }) => {
       <Section>
         Quando una copy in stato confusionale da brainstorming incontra una
         grafica che sogna di essere Margherita Hack e un developer che non beve
-        caffè, la copy in stato confusionale da brainstorming capisce subito di
+        mai caffè, la copy in stato confusionale da brainstorming capisce subito di
         essere in buone mani...
         <br />
         SARA SILVESTRI e LUCIO BENINI sono i due professionisti che hanno saputo
-        concretizzare ciò che avevo in mente (con una pazienza degna solo del
+        concretizzare ciò che avevo in mente (con una pazienza degna del
         Dalai Lama).
-        <br />A loro vanno tutti i miei GRAZIE.
+        <br />A loro vanno tutti i miei ringraziamenti per la realizzazione di questo sito. GRAZIE, GRAZIE e GRAZIE. E già che ci siamo, ancora GRAZIE!
       </Section>
       <Section>
         <div className="columns">
