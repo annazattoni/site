@@ -5,7 +5,7 @@ date: "2020-08-31T22:12:03.284Z"
 ---
 
 Non si può parlare di content marketing di qualità senza fare riferimento al piano editoriale, le due cose sono inscindibili.
-Un po' come il burro e la marmellata, lo shampoo e il balsamo, Samuel e Garfunkel.
+Un po' come il burro e la marmellata, lo shampoo e il balsamo, Simon e Garfunkel.
 
 Il piano editoriale è uno **strumento strategico** che permette di pianificare e di organizzare al meglio i contenuti, rendendoli continui nel tempo.
 Oltre a far sì che quanto pubblicato sia in linea con gli obiettivi di business, esso facilita la gestione delle pubblicazioni.<br/> 
