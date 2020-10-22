@@ -35,7 +35,6 @@ const Services = () => {
       <div className="services-wrapper">
         <Section>
           {allMarkdownRemark.edges.map(({ node }) => {
-            console.log(node)
             return (
               <Accordion
                 title={node.frontmatter.title}

@@ -5,7 +5,7 @@ import Services from "../../content/pages/services"
 
 export default ({ location }) => {
   return (
-    <Container location={location} title="Services">
+    <Container location={location} title="Servizi">
       <Services location={location} />
     </Container>
   )

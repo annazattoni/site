@@ -69,8 +69,8 @@ export default ({ children, location, metadata }) => {
                 {metadata.title && !metadata.compact && (
                   <h1 className="title">{metadata.title}</h1>
                 )}
-                {metadata.description && (
-                  <h2 className="subtitle">{metadata.description}</h2>
+                {metadata.excerpt && (
+                  <h2 className="subtitle">{metadata.excerpt}</h2>
                 )}
               </header>
               <MDXProvider components={shortcodes}>{children}</MDXProvider>
@@ -83,7 +83,7 @@ export default ({ children, location, metadata }) => {
 
   if (metadata.container || typeof metadata.container === "undefined") {
     return (
-      <Container location={location} title={metadata.title}>
+      <Container location={location} title={metadata.title} description={metadata.description}>
         {body}
       </Container>
     )

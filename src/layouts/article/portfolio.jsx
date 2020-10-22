@@ -11,10 +11,10 @@ import "../../scss/layouts/article/_portfolio.scss"
 export default class PortfolioTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
-
+    
     return (
       <>
-        <SEO title={post.title} path={this.props.location.pathname} />
+        <SEO title={post.title} path={this.props.location.pathname} description={post.description} />
         <MainNavBar location={this.props.location} />
         <main className="portfolio-main">
           <div className="container">
