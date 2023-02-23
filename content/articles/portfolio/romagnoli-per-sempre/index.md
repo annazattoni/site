@@ -2,7 +2,7 @@
 title: "Romagnoli per sempre"
 description: "Viaggio emozionale in Romagna."
 url: "https://www.edizionidellasera.com/product/romagnoli-per-sempre"
-logo: "romagnoli-per-sempre.jpg"
+logo: "romagnoli-per-sempre.png"
 date: "2023-02-23T22:12:03.284Z"
 ---
 
