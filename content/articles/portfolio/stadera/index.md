@@ -14,4 +14,4 @@ A rendere speciale questa food coop è la sua modalità di funzionamento. Oltre 
 
 Stadera è sì un minimarket impegnato nella **lotta allo spreco alimentare** e nel **contenimento del packaging**, ma anche un **luogo di cultura e di formazione**.
 
-Per questo progetto, rivolto soprattutto alla cittadinanza ravennate, redigo i testi del sito, mi occupo del piano editoriale, scrivo le newsletter e pubblico i contenuti indirizzati alla pagina Facebook.
+Fino a qualche tempo fa, per questo progetto rivolto soprattutto alla cittadinanza ravennate, ho redatto i testi del sito, mi sono occupata del piano editoriale social, ho scritto le newsletter mensili, pubblicato i contenuti indirizzati alle pagine Facebook e Instagram e organizzato tutte le attività di comunicazione legate a una recente campagna di crowdfunding condotta in collaborazione con Idea Ginger.
